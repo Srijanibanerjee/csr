@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="candidate.js">
+    </script>
+    <script type="text/javascript" src="task.js">
+    </script>
+    <script type="text/javascript" src="app.js">
+    </script>
+    <script type="text/javascript" src="tasklist.js">
+    </script>
+    <script src="ourtaskdata.txt"></script>
+
+
+
+</head>
+
+<body>
+    
+    <div class="split_left left">
+        <div style="background-color: rgb(9 97 106 / 36%);padding: 10px;">
+
+            <li><a href="main.html">Task Assign</a></li>
+            <li><a href="filesubmit.html">Upload</a></li>
+            
+            </ul>
+
+        </div>
+        <div class="centered">
+
+            <div style="display: flex; margin-top: 2%; ">
+                <div>
+
+                    <select id="sel">
+                        <option value="">-- Select people--</option>
+                    </select>
+                </div>
+                <div>
+                    <select id="task">
+                        <option value="">-- Select task--</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+
+                <input type="submit" id="submit" onclick="submitfunction()">
+
+
+                
+            </div>
+
+
+        </div>
+
+    </div>
+    </div>
+
+
+    </div>
+    <div class="split_right right">
+        <div class="centered2">
+            <div>
+                <table>
+                    <thead>
+                        <th>ID</th>
+                        <th>Candidate name</th>
+                    </thead>
+                    <tbody id="candidate_table">
+                    </tbody>
+                </table>
+            </div>
+
+            <div style="margin-left: 2%;">
+                <table>
+                    <thead>
+                        <th>Task ID</th>
+                        <th>Task name</th>
+                    </thead>
+                    <tbody id="task_table">
+
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

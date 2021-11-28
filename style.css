@@ -1,0 +1,161 @@
+
+  
+body {
+   
+    background-image: url("hd-website-backgrounds-9.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li  {
+    display: inline;
+    width: 60px;
+    padding: 14px 16px;
+
+   
+  }
+  a{
+    font-size: 20px;
+    color: #13315f;
+    text-decoration: none;
+  }
+  #sel{
+    
+      background-color: #13315f;
+      color: white;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      
+    
+    
+  }
+  #task{
+    background-color: #13315f;
+    padding: 10px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 11%;
+  }
+  #submit{
+    background-color: #13315f;
+    padding: 10px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 7%;
+    margin-left: 0%;
+ 
+  }
+  #upload{
+    background-color: #13315f;
+    padding: 10px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 7%;
+    margin-left: 0%;
+
+  }
+
+  #myfile{
+    padding: 10px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #13315f;
+    margin-left: 32%;
+  }
+  #sub{
+    padding: 10px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #13315f;
+    
+    margin-top: 3%;
+  }
+
+
+  
+.split_right {
+  height: 100%;
+  width: 60%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  
+}
+
+.split_left{
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
+
+.left {
+  left: 0;
+  
+}
+
+.right {
+  right: 0;
+  
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: grid;
+  grid-gap: 26px;
+}
+.centered2{
+  position: absolute;
+  top: 45%;
+  left: 43%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  
+
+}
+
+
+table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  padding: 10%;
+}
+td, th {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+#uploadphoto{
+  display: none;
+}
